@@ -10,6 +10,9 @@ function Login({host}) {
   const router = useRouter()
 
   const handleLogin = async (data) => {
+    localStorage.setItem('username', data.username)
+    localStorage.setItem('password', data.password)
+
     document.getElementById('btn').innerHTML = 'Loading...'
       try {
         

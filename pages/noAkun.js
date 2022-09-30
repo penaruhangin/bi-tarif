@@ -10,6 +10,8 @@ const NoAkun = ({host}) => {
 
     const handleLogin = async (data) => {
 
+        localStorage.setItem('noRek', data)
+
         document.getElementById('btn').innerHTML = 'Loading...'
 
         try {
