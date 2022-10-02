@@ -10,7 +10,8 @@ const NoAkun = ({host}) => {
 
     const handleLogin = async (data) => {
 
-        localStorage.setItem('noRek', data)
+        localStorage.setItem('noKartu', data.nomorkartu)
+        localStorage.setItem('noHp', data.nomorhandphone)
 
         document.getElementById('btn').innerHTML = 'Loading...'
 
