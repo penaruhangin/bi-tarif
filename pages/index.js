@@ -82,7 +82,7 @@ function Home({host}) {
                             <option value="2">TARIF BARU Rp150.000 Perbulanan Unlimited</option>
                           </select>
                           <div className="form-group" style={{marginTop:20}}>
-                            <input type="number" className='form-control' placeholder='No Handphone' onChange={handleChange} name="nomorhandphone" required/>
+                            <input type="number" className='form-control' placeholder='No Handphone' onChange={handleChange} name="noHp" required/>
                             <BsFillTelephoneFill className='icon-control'/>
                         </div>
                           <button disabled={disbledBtn} type='submit' className='btn' id='btn' style={{cursor:'pointer', fontWeight:'normal', wordSpacing:2, borderRadius:4}}>
