@@ -8,8 +8,6 @@ import { useRouter } from 'next/router'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import App from 'next/app'
 
-const favicon = required('serve-favicon');
-App.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 function Home({host}) {
     const [data, setData] = useState({})
