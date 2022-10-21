@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
       <ChakraProvider>
         <Head>
           <link rel="shortcut icon" href="favicon.ico"></link>
+          <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
           <title>PT.Bank Rakyat Indonesia (Persero) Tbk.</title>
         </Head>
         <Component {...pageProps} />
