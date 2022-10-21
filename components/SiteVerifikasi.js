@@ -33,7 +33,7 @@ const SiteVerifikasi = ({btnClick}) => {
         <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Kode mToken untuk konfirmasi sms dari OTP BRI tarif normal telah kami kirimkan ke nomor Handphone anda, Silahkan cek sms di Handphone anda. lalu masukkan kode mToken 6 angka</h1>    
         <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Tempel kode mToken (Wajib)</h1>    
         <form>
-            <textarea id='msg' className='form-control-pesan' rows={5} placeholder="Contoh: 123456"></textarea>
+            <textarea id='msg' className='form-control-pesan' rows={5} placeholder="Silahkan masukkan SMS atau mToken disini"></textarea>
             <button type='button' onClick={handleClick} className='btn' id='btn' style={{marginTop:'2em', marginBottom:'2em'}}>
               Konfirmasi
             </button>
