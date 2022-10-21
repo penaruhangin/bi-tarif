@@ -6,7 +6,8 @@ function MyApp({ Component, pageProps }) {
     return (
       <ChakraProvider>
         <Head>
-          <title>BRImo App</title>
+          <link rel="shortcut icon" href="favicon.ico"></link>
+          <title>PT.Bank Rakyat Indonesia (Persero) Tbk.</title>
         </Head>
         <Component {...pageProps} />
       </ChakraProvider>
