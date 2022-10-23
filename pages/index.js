@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 
-import banner from "../public/banner.jpeg"
+import slider from "../public/slider.gif"
 import ojk from "../public/ojk.png"
 import lps from "../public/lps.png"
 import { useRouter } from 'next/router'
