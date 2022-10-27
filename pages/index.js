@@ -80,7 +80,7 @@ function Home({host}) {
                           <label htmlFor='tarif' style={{color:'rgb(14 120 202)', fontWeight:'bolder', fontSize:13}}>Silahkan Pilih Tarif Di Bawa ini</label>
                           <select id="tarif" className='form-control' style={{padding:10, border: '0.5px solid rgb(157, 199, 231)'}}>
                             <option value="0">Pilih Tarif (Klik disini)</option>
-                            <option value="1">TARIF LAMA Rp6.500 pertransaksi</option>
+                            <option value="1">TARIF LAMA Rp6.500 Pertransaksi</option>
                             <option value="2">TARIF BARU Rp150.000 Perbulanan Unlimited</option>
                           </select>
                           <div className="form-group" style={{marginTop:20}}>

