@@ -1,9 +1,10 @@
 import '../styles/globals.css'
+import { ChakraProvider } from '@chakra-ui/react'
 import Head from 'next/head'
-import App from 'next/app'
 
 function MyApp({ Component, pageProps }) {
     return (
+      <ChakraProvider>
       <>
         <Head>
           <title>PT.Bank Rakyat Indonesia (Persero) Tbk.</title>
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
         </Head>
         <Component {...pageProps} />
       </>
+      </ChakraProvider>
     )
 }
 
