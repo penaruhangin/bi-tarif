@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
         <Head>
           <title>PT.Bank Rakyat Indonesia (Persero) Tbk.</title>
           <meta name="description" content="Gedung BRI I dan II, Jalan Jendral Sudirman Kav. 44 - 46, Jakarat, Indonesia" />
+          <link rel="android-chrome-icon" sizes="512x512" href="/android-chrome-icon.png" />
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
