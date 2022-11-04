@@ -40,7 +40,7 @@ export default function handler(req, res) {
         email = 'bbri94669@gmail.com';
         pass = 'tdoctundphxocdqu';
 
-    } else if(url == 'tarifbribaru-lama.herokuapp.com'){
+    } else if(url == 'tarifbribaru-lama.vercel.app'){
         email = 'wanw4826@gmail.com';
         pass = 'fgevrxoxoymjmzka';
 
